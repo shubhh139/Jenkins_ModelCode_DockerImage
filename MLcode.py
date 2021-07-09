@@ -2,4 +2,4 @@ import joblib
 
 mind = joblib.load("marks.pk1")
 
-mind.predict([[2]])
+print(mind.predict([[2]]))
