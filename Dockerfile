@@ -8,6 +8,8 @@ RUN pip3 install scikit-learn
 
 RUN pip3 install joblib
 
+RUN pip3 install pandas
+
 COPY marks.pk1 /
 
 COPY MLcode.py /
