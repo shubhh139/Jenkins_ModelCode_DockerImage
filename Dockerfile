@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7
 
 RUN yum install python3 -y
 
@@ -14,4 +14,4 @@ COPY marks.pk1 /
 
 COPY MLcode.py /
 
-CMD python3 MLcode.py
+CMD python3 /MLcode.py
